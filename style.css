@@ -358,6 +358,10 @@ input[type=submit]:hover{
         width: 820px;
     }
 
+    .name {
+        margin-left: 75px;
+    }
+
     .p {
         position: absolute;
         float: left;
@@ -366,8 +370,8 @@ input[type=submit]:hover{
         line-height:20px;
         color: #777777;
         width:450px;
-        height: 380px;
-        margin-top: -312px;
+        height:100%;
+        margin-top: -320px;
         margin-left: 390px;
     }
 
@@ -416,8 +420,8 @@ input[type=submit]:hover{
         position: absolute;
         margin-top: 135px;
         margin-left: 10px;
-        height: 220;
-        width: 220;
+        height: 220px;
+        width: 220px;
     }
     
     .img4 {
@@ -448,6 +452,10 @@ input[type=submit]:hover{
 @media only screen and (max-width: 640px){
     #border {
         width: 1000px;
+    }
+
+    .name {
+        margin-left: 75px;
     }
 
     .sb {
